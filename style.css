@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.ZoomIn {
+  width:60px;
+  height:60px;
+  background-image: url('./assets/zoom.jpg');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.ZoomOut {
+  width:60px;
+  height:60px;
+  background-image: url('./assets/zoom_out.jpg');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.score_container{
+  font-size: 40px;
+  color: rgb(232, 237, 250);
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.hscore_container{
+  font-size: 37px;
+  color: rgb(232, 237, 250);
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.restartButton {
+  width:60px;
+  height:60px;
+  background-image: url('./assets/restart.png');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.infoButton {
+  width:60px;
+  height:60px;
+  background-image: url('./assets/info.png');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.resetHS {
+  width:200px;
+  height:50px;
+  background-image: url('./assets/reset.png');
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
